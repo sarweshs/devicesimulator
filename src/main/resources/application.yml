@@ -1,0 +1,13 @@
+ixortalk:
+  iot:
+    client:
+      aws:
+        endpoint: a2jxb6fgji1c8l-ats.iot.us-east-2.amazonaws.com
+        client-id: ixortalk-iot-client-1
+        default-topic: purifier/consumer/${deviceid}
+        certificate-file: /Users/sarwesh.saurabh/Desktop/iot_usecases/personal/iot_code/b6e49a5dff-certificate.pem.crt
+        private-key-file: /Users/sarwesh.saurabh/Desktop/iot_usecases/personal/iot_code/b6e49a5dff-private.pem.key
+        
+deviceid: "5"
+scheduler:
+  fixedrate: 10000 
